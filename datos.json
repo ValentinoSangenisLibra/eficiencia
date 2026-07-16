@@ -1,7 +1,87 @@
 {
- "20": [],
- "21": [],
- "24": [],
- "25": [],
- "26": []
+  "20": [
+    {
+      "fecha": "2026-07-15",
+      "diaEf": 0,
+      "diaObj": 36.83,
+      "diaTG": 0,
+      "diaTP": 0,
+      "diaTD": 0,
+      "diaVOL": 0,
+      "mesEf": 41.43,
+      "mesObj": 36.83,
+      "mesTG": 957,
+      "mesTP": 1353,
+      "mesTD": 2310,
+      "mesVOL": 111310
+    }
+  ],
+  "21": [
+    {
+      "fecha": "2026-07-15",
+      "diaEf": 0,
+      "diaObj": 36.83,
+      "diaTG": 0,
+      "diaTP": 0,
+      "diaTD": 0,
+      "diaVOL": 0,
+      "mesEf": 36.27,
+      "mesObj": 36.83,
+      "mesTG": 2927,
+      "mesTP": 5143,
+      "mesTD": 8070,
+      "mesVOL": 1133664
+    }
+  ],
+  "24": [
+    {
+      "fecha": "2026-07-15",
+      "diaEf": 0,
+      "diaObj": 36.83,
+      "diaTG": 0,
+      "diaTP": 0,
+      "diaTD": 0,
+      "diaVOL": 0,
+      "mesEf": 30.39,
+      "mesObj": 36.83,
+      "mesTG": 1313,
+      "mesTP": 3007,
+      "mesTD": 4320,
+      "mesVOL": 528648
+    }
+  ],
+  "25": [
+    {
+      "fecha": "2026-07-15",
+      "diaEf": 0,
+      "diaObj": 36.83,
+      "diaTG": 0,
+      "diaTP": 0,
+      "diaTD": 0,
+      "diaVOL": 0,
+      "mesEf": 29.19,
+      "mesObj": 36.83,
+      "mesTG": 1213,
+      "mesTP": 2942,
+      "mesTD": 4155,
+      "mesVOL": 303624
+    }
+  ],
+  "26": [
+    {
+      "fecha": "2026-07-15",
+      "diaEf": 0,
+      "diaObj": 36.83,
+      "diaTG": 0,
+      "diaTP": 0,
+      "diaTD": 0,
+      "diaVOL": 0,
+      "mesEf": 38.82,
+      "mesObj": 36.83,
+      "mesTG": 1805,
+      "mesTP": 2845,
+      "mesTD": 4650,
+      "mesVOL": 449680
+    }
+  ]
 }
