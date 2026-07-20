@@ -1,7 +1,7 @@
 {
   "20": [
     {
-      "fecha": "2026-07-15",
+      "fecha": "2026-07-19",
       "diaEf": 0,
       "diaObj": 36.83,
       "diaTG": 0,
@@ -18,7 +18,7 @@
   ],
   "21": [
     {
-      "fecha": "2026-07-15",
+      "fecha": "2026-07-19",
       "diaEf": 0,
       "diaObj": 36.83,
       "diaTG": 0,
@@ -35,7 +35,7 @@
   ],
   "24": [
     {
-      "fecha": "2026-07-15",
+      "fecha": "2026-07-19",
       "diaEf": 0,
       "diaObj": 36.83,
       "diaTG": 0,
@@ -52,7 +52,7 @@
   ],
   "25": [
     {
-      "fecha": "2026-07-15",
+      "fecha": "2026-07-19",
       "diaEf": 0,
       "diaObj": 36.83,
       "diaTG": 0,
@@ -69,7 +69,7 @@
   ],
   "26": [
     {
-      "fecha": "2026-07-15",
+      "fecha": "2026-07-19",
       "diaEf": 0,
       "diaObj": 36.83,
       "diaTG": 0,
@@ -83,5 +83,12 @@
       "mesTD": 4650,
       "mesVOL": 449680
     }
-  ]
+  ],
+  "_links": {
+    "20": "https://koandina.sharepoint.com/:x:/r/sites/OperariosAndinaCordoba/_layouts/15/Doc.aspx?sourcedoc=%7B1588ABD3-A5D6-410E-BD23-F9E9ED26881C%7D&file=Planilla%20Jugos%20Litro%20L20%20-%2020-07-2026%20-%20Editable.xlsm&action=default&mobileredirect=true",
+    "21": "https://koandina.sharepoint.com/:x:/r/sites/OperariosAndinaCordoba/_layouts/15/Doc.aspx?sourcedoc=%7BE338A341-1077-4A50-9837-8ED4E1683BD9%7D&file=Planilla%20Jugos%20200%20L21%20-%2020-07-2026%20-%20Editable.xlsm&action=default&mobileredirect=true",
+    "24": "https://koandina.sharepoint.com/:x:/r/sites/OperariosAndinaCordoba/_layouts/15/Doc.aspx?sourcedoc=%7BF4B8A1BA-1BF0-4B59-86C7-89B2B93A2DDE%7D&file=Planilla%20Jugos%20200%20L24%20-%2020-07-2026.xlsm&action=default&mobileredirect=true",
+    "25": "https://koandina.sharepoint.com/:x:/r/sites/OperariosAndinaCordoba/_layouts/15/Doc.aspx?sourcedoc=%7BE52F7CF8-BBB7-440E-A43C-43DEA30E479B%7D&file=Planilla%20Jugos%20Litro%20L25%20-%2020-07-2026.xlsm&action=default&mobileredirect=true",
+    "26": "https://koandina.sharepoint.com/:x:/r/sites/OperariosAndinaCordoba/_layouts/15/Doc.aspx?sourcedoc=%7B544FEBA5-0547-4775-ADCA-172DEA4C646D%7D&file=Planilla%20Jugos%20Litro%20L26%20-%2020-07-2026%20-%20Editable.xlsm&action=default&mobileredirect=true"
+  }
 }
