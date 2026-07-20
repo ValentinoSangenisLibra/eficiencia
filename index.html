@@ -48,6 +48,8 @@
   .chip.active{background:var(--cc-red); color:#fff; border-color:var(--cc-red);}
   .chip.todas{border-style:dashed;}
   .chip.todas.active{background:var(--ink); border-color:var(--ink);}
+  .chip.excel{background:#217346; color:#fff; border-color:#217346; text-decoration:none; display:inline-flex; align-items:center;}
+  .chip.excel:hover{background:#1a5c38;}
 
   .daylabel{text-align:center; font-size:13px; color:var(--muted); text-transform:capitalize; padding:8px 0 0;}
   main{flex:1 1 auto; display:flex; flex-direction:column; padding:10px 16px 16px; gap:12px;}
@@ -85,6 +87,8 @@
   .mini-col .val{font-size:20px; font-weight:700; line-height:1.2;}
   .mini-col .obj{font-size:10px; color:var(--muted);}
   .mini .sindata{color:var(--muted); font-size:12px; padding:16px 0;}
+  .mini-excel{display:inline-block; margin-top:8px; background:#217346; color:#fff; text-decoration:none; border-radius:8px; padding:6px 12px; font-size:12px; font-weight:600;}
+  .mini-excel:hover{background:#1a5c38;}
 
   /* SELECTOR INICIAL */
   .picker{position:fixed; inset:0; background:linear-gradient(135deg,#F40000 0%,#8B0000 100%); display:flex; align-items:center; justify-content:center; z-index:50; padding:20px;}
@@ -303,6 +307,11 @@ function renderChips(){
     h+='<button class="chip'+(!vistaTodas&&lineaActual===l?' active':'')+'" onclick="verLinea(\''+l+'\')">'+l+'</button>';
   });
   h+='<button class="chip todas'+(vistaTodas?' active':'')+'" onclick="verTodas()">Ver las 5</button>';
+  // boton planilla Excel de la linea actual (solo en vista individual)
+  if(!vistaTodas && lineaActual){
+    const url=(store._links&&store._links[lineaActual])?store._links[lineaActual]:'';
+    if(url){ h+='<a class="chip excel" href="'+url+'" target="_blank" rel="noopener">📊 Ver planilla</a>'; }
+  }
   bar.innerHTML=h;
 }
 function renderTodas(){
@@ -315,7 +324,10 @@ function renderTodas(){
     h+='<div class="sub">'+fecha(u.fecha).toLocaleDateString('es-AR')+'</div><div class="mini-row">';
     h+='<div class="mini-col"><div class="cap">Día ant.</div><div class="val" style="color:'+semColor(u.diaEf,u.diaObj)+'">'+pct(u.diaEf)+'</div><div class="obj">obj '+pct(u.diaObj)+'</div></div>';
     h+='<div class="mini-col"><div class="cap">Mes</div><div class="val" style="color:'+semColor(u.mesEf,u.mesObj)+'">'+pct(u.mesEf)+'</div><div class="obj">obj '+pct(u.mesObj)+'</div></div>';
-    h+='</div></div>';
+    h+='</div>';
+    const lk=(store._links&&store._links[l])?store._links[l]:'';
+    if(lk){ h+='<a class="mini-excel" href="'+lk+'" target="_blank" rel="noopener">📊 Ver planilla</a>'; }
+    h+='</div>';
   });
   h+='</div>';
   cont.innerHTML=h;
