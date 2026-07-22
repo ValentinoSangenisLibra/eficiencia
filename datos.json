@@ -14,6 +14,21 @@
       "mesTP": 1353,
       "mesTD": 2310,
       "mesVOL": 111310
+    },
+    {
+      "fecha": "2026-07-21",
+      "diaEf": 32.54,
+      "diaObj": 36.83,
+      "diaTG": 449,
+      "diaTP": 931,
+      "diaTD": 1380,
+      "diaVOL": 52920,
+      "mesEf": 35.09,
+      "mesObj": 36.83,
+      "mesTG": 1716,
+      "mesTP": 3174,
+      "mesTD": 4890,
+      "mesVOL": 217990
     }
   ],
   "21": [
@@ -31,11 +46,41 @@
       "mesTP": 5143,
       "mesTD": 8070,
       "mesVOL": 1133664
+    },
+    {
+      "fecha": "2026-07-21",
+      "diaEf": 36.67,
+      "diaObj": 36.83,
+      "diaTG": 264,
+      "diaTP": 456,
+      "diaTD": 720,
+      "diaVOL": 112656,
+      "mesEf": 36.26,
+      "mesObj": 36.83,
+      "mesTG": 3383,
+      "mesTP": 5947,
+      "mesTD": 9330,
+      "mesVOL": 1344288
     }
   ],
   "24": [
     {
       "fecha": "2026-07-19",
+      "diaEf": 0,
+      "diaObj": 36.83,
+      "diaTG": 0,
+      "diaTP": 0,
+      "diaTD": 0,
+      "diaVOL": 0,
+      "mesEf": 30.39,
+      "mesObj": 36.83,
+      "mesTG": 1313,
+      "mesTP": 3007,
+      "mesTD": 4320,
+      "mesVOL": 528648
+    },
+    {
+      "fecha": "2026-07-21",
       "diaEf": 0,
       "diaObj": 36.83,
       "diaTG": 0,
@@ -65,6 +110,21 @@
       "mesTP": 2942,
       "mesTD": 4155,
       "mesVOL": 303624
+    },
+    {
+      "fecha": "2026-07-21",
+      "diaEf": 0,
+      "diaObj": 36.83,
+      "diaTG": 0,
+      "diaTP": 0,
+      "diaTD": 0,
+      "diaVOL": 0,
+      "mesEf": 29.19,
+      "mesObj": 36.83,
+      "mesTG": 1213,
+      "mesTP": 2942,
+      "mesTD": 4155,
+      "mesVOL": 303624
     }
   ],
   "26": [
@@ -82,13 +142,28 @@
       "mesTP": 2845,
       "mesTD": 4650,
       "mesVOL": 449680
+    },
+    {
+      "fecha": "2026-07-21",
+      "diaEf": 0,
+      "diaObj": 36.83,
+      "diaTG": 0,
+      "diaTP": 0,
+      "diaTD": 0,
+      "diaVOL": 0,
+      "mesEf": 37.37,
+      "mesObj": 36.83,
+      "mesTG": 1805,
+      "mesTP": 3025,
+      "mesTD": 4830,
+      "mesVOL": 461440
     }
   ],
   "_links": {
-    "20": "https://koandina.sharepoint.com/:x:/r/sites/OperariosAndinaCordoba/_layouts/15/Doc.aspx?sourcedoc=%7B1588ABD3-A5D6-410E-BD23-F9E9ED26881C%7D&file=Planilla%20Jugos%20Litro%20L20%20-%2020-07-2026%20-%20Editable.xlsm&action=default&mobileredirect=true",
-    "21": "https://koandina.sharepoint.com/:x:/r/sites/OperariosAndinaCordoba/_layouts/15/Doc.aspx?sourcedoc=%7BE338A341-1077-4A50-9837-8ED4E1683BD9%7D&file=Planilla%20Jugos%20200%20L21%20-%2020-07-2026%20-%20Editable.xlsm&action=default&mobileredirect=true",
-    "24": "https://koandina.sharepoint.com/:x:/r/sites/OperariosAndinaCordoba/_layouts/15/Doc.aspx?sourcedoc=%7BF4B8A1BA-1BF0-4B59-86C7-89B2B93A2DDE%7D&file=Planilla%20Jugos%20200%20L24%20-%2020-07-2026.xlsm&action=default&mobileredirect=true",
-    "25": "https://koandina.sharepoint.com/:x:/r/sites/OperariosAndinaCordoba/_layouts/15/Doc.aspx?sourcedoc=%7BE52F7CF8-BBB7-440E-A43C-43DEA30E479B%7D&file=Planilla%20Jugos%20Litro%20L25%20-%2020-07-2026.xlsm&action=default&mobileredirect=true",
+    "20": "https://koandina.sharepoint.com/:x:/r/sites/OperariosAndinaCordoba/_layouts/15/Doc.aspx?sourcedoc=%7BBEDADE26-DD5C-4286-A59E-70954C8B8731%7D&file=Planilla%20Jugos%20Litro%20L20%20-%2022-07-2026%20-%20Editable.xlsm&action=default&mobileredirect=true",
+    "21": "https://koandina.sharepoint.com/:x:/r/sites/OperariosAndinaCordoba/_layouts/15/Doc.aspx?sourcedoc=%7B86F5594B-5AF9-4424-90E6-E8AAE535DD73%7D&file=Planilla%20Jugos%20200%20L21%20-%2022-07-2026%20-%20Editable.xlsm&action=default&mobileredirect=true",
+    "24": "https://koandina.sharepoint.com/:x:/r/sites/OperariosAndinaCordoba/_layouts/15/Doc.aspx?sourcedoc=%7B931A6808-77DB-4AEF-BD08-CDA80020403F%7D&file=Planilla%20Jugos%20200%20L24%20-%2022-07-2026.xlsm&action=default&mobileredirect=true",
+    "25": "https://koandina.sharepoint.com/:x:/r/sites/OperariosAndinaCordoba/_layouts/15/Doc.aspx?sourcedoc=%7BE531E7F5-A08E-476C-BC1C-A96AA66A485D%7D&file=Planilla%20Jugos%20Litro%20L25%20-%2022-07-2026.xlsm&action=default&mobileredirect=true",
     "26": "https://koandina.sharepoint.com/:x:/r/sites/OperariosAndinaCordoba/_layouts/15/Doc.aspx?sourcedoc=%7B544FEBA5-0547-4775-ADCA-172DEA4C646D%7D&file=Planilla%20Jugos%20Litro%20L26%20-%2020-07-2026%20-%20Editable.xlsm&action=default&mobileredirect=true"
   }
 }
